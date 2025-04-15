@@ -1,0 +1,10 @@
+
+path: '/raid/seg'
+train: ['sa2/sa_000150',]
+
+val: 'sa2/sa_000199'
+test: 'sa2/sa_000199'
+
+# Classes
+names:
+  0: object
