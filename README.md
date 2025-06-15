@@ -30,7 +30,7 @@ pip install git+https://github.com/openai/CLIP.git
 
 ## <a name="GettingStarted"></a> Getting Started
 
-First download a [model checkpoint](#(https://github.com/XFastDataLab/FastSmoothSAM/releases/tag/v1.0.0)).
+First download a [model checkpoint](#https://github.com/XFastDataLab/FastSmoothSAM/releases/tag/v1.0.0).
 
 ## Results
 
