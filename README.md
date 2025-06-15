@@ -1,5 +1,7 @@
 # FastSmoothSAM: A Fast Smooth Method For Segment Anything Model
 
+(assets/anomaly.png)
+
 ## Installation
 
 Clone the repository locally:
@@ -35,40 +37,6 @@ First download a [model checkpoint](https://github.com/XFastDataLab/FastSmoothSA
 ## Results
 
 All result were tested on a single NVIDIA GeForce RTX 3060Ti.
-
-### 1. Inference time
-
-Running Speed under Different Point Prompt Numbers(ms).
-| method | params | 1 | 10 | 100 | E(16x16) | E(32x32\*) | E(64x64) |
-|:------------------:|:--------:|:-----:|:-----:|:-----:|:----------:|:-----------:|:----------:|
-| SAM-H | 0.6G | 446 | 464 | 627 | 852 | 2099 | 6972 |
-| SAM-B | 136M | 110 | 125 | 230 | 432 | 1383 | 5417 |
-| FastSAM | 68M | 40 |40 | 40 | 40 | 40 | 40 |
-
-### 2. Memory usage
-
-|  Dataset  | Method  | GPU Memory (MB) |
-| :-------: | :-----: | :-------------: |
-| COCO 2017 | FastSAM |      2608       |
-| COCO 2017 |  SAM-H  |      7060       |
-| COCO 2017 |  SAM-B  |      4670       |
-
-### 3. Zero-shot Transfer Experiments
-
-#### Object Proposals
-
-
-#### Instance Segmentation On COCO 2017
-
-|  method  |  AP  | APS  | APM  | APL  |
-| :------: | :--: | :--: | :--: | :--: |
-| ViTDet-H | .510 | .320 | .543 | .689 |
-|   SAM    | .465 | .308 | .510 | .617 |
-| FastSAM  | .379 | .239 | .434 | .500 |
-
-### 4. Performance Visualization
-
-Several segmentation results:
 
 #### Natural Images
 
