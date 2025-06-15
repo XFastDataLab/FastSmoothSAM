@@ -1,6 +1,6 @@
 # FastSmoothSAM: A Fast Smooth Method For Segment Anything Model
 
-[](assets/framework.jpg)
+[(assets/framework.jpg)]
 
 ## Installation
 
