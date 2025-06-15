@@ -1,6 +1,7 @@
 # FastSmoothSAM: A Fast Smooth Method For Segment Anything Model
 
 ![framework](assets/framework.jpg)
+![stage](assets/stage.png)
 
 ## Installation
 
@@ -38,27 +39,8 @@ First download a [model checkpoint](https://github.com/XFastDataLab/FastSmoothSA
 
 All result were tested on a single NVIDIA GeForce RTX 3060Ti.
 
-#### Natural Images
+![large](assets/large.png)
 
-![Natural Images](assets/eightpic.png)
+![result](assets/result.png)
 
-#### Text to Mask
-
-![Text to Mask](assets/dog_clip.png)
-
-### 5.Downstream tasks
-
-The results of several downstream tasks to show the effectiveness.
-
-#### Anomaly Detection
-
-![Anomaly Detection](assets/anomaly.png)
-
-#### Salient Object Detection
-
-![Salient Object Detection](assets/salient.png)
-
-#### Building Extracting
-
-![Building Detection](assets/building.png)
 
